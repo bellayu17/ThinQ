@@ -1,74 +1,79 @@
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": ["Hi", "Hello", "Hey"],
-        "responses": ["Hello, how can I assist with your lung cancer queries today?", "Hi there, ready to assist you with lung cancer information."]
-      },
-      {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": ["Goodbye, stay informed and take care!", "See you later, wishing all the best for your lung cancer care."]
-      },
-      {
-        "tag": "symptom_inquiry",
-        "patterns": ["What are the symptoms of lung cancer", "Common signs of lung cancer", "How do I know if someone has lung cancer"],
-        "responses": ["Common symptoms of lung cancer include coughing, chest pain, weight loss, and shortness of breath.", "Patients with lung cancer may experience persistent cough, hemoptysis, and dyspnea."]
-      },
-      {
-        "tag": "diagnostic_tests",
-        "patterns": ["What tests are needed for lung cancer diagnosis", "How to diagnose lung cancer", "Diagnostic tests for lung cancer"],
-        "responses": ["Diagnostic tests for lung cancer include chest X-rays, CT scans, PET scans, and biopsies.", "To diagnose lung cancer, one may need imaging tests followed by a biopsy to confirm."]
-      },
-      {
-        "tag": "treatment_options",
-        "patterns": ["How to treat lung cancer", "What are the treatment options for lung cancer", "Treatment methods for lung cancer"],
-        "responses": ["Treatment options for lung cancer include surgery, radiation therapy, chemotherapy, targeted therapy, and immunotherapy.", "Lung cancer can be treated through surgical resection, radiation, chemotherapy, or a combination of these methods."]
-      },
-      {
-        "tag": "medication_info",
-        "patterns": ["What drugs are used for lung cancer", "Medication for treating lung cancer", "Chemotherapy for lung cancer"],
-        "responses": ["Common drugs for lung cancer include targeted therapy agents like erlotinib and immunotherapies like nivolumab.", "Chemotherapeutic agents used in lung cancer treatment include cisplatin and docetaxel."]
-      },
-      {
-        "tag": "side_effects",
-        "patterns": ["What are the side effects of lung cancer treatment", "Complications from lung cancer therapy", "Risks of lung cancer treatment"],
-        "responses": ["Side effects of lung cancer treatment can include nausea, fatigue, hair loss, and risk of infection.", "Possible complications from lung cancer treatment are pulmonary toxicity, cardiac issues, and neuropathy."]
-      },
-      {
-        "tag": "prognosis",
-        "patterns": ["What is the prognosis for lung cancer", "Life expectancy with lung cancer", "Survival rates for lung cancer"],
-        "responses": ["The prognosis for lung cancer varies based on the stage and type, with early-stage having better outcomes.", "Survival rates for lung cancer depend on the stage, with higher survival in localized and early-stage diseases."]
-      },
-      {
-        "tag": "referral",
-        "patterns": ["Who should I refer to for lung cancer treatment", "Need specialist for lung cancer", "Referral for lung cancer"],
-        "responses": ["For lung cancer treatment, refer to an oncologist specializing in thoracic cancers.", "For comprehensive lung cancer care, consider referral to a multidisciplinary team including thoracic surgeons, medical oncologists, and radiation oncologists."]
-      },
-      {
-        "tag": "follow_up",
-        "patterns": ["When to follow up for lung cancer", "Follow-up schedule for lung cancer", "Next appointment for lung cancer"],
-        "responses": ["Follow-up schedule for lung cancer typically involves regular scans and appointments every 3 to 6 months.", "Next appointment should be based on the current treatment phase, typically every 3 months during active treatment."]
-      },
-      {
-        "tag": "patient_support",
-        "patterns": ["Support services for lung cancer", "Help for patients with lung cancer", "Where can patients find support for lung cancer"],
-        "responses": ["Support services for lung cancer include counseling, support groups, and patient education programs.", "Patients with lung cancer can find support through local cancer societies, online communities, and hospital support services."]
-      },
-      {
-        "tag": "clinical_trials",
-        "patterns": ["Are there any clinical trials for lung cancer", "How to participate in clinical trial for lung cancer", "Clinical studies for lung cancer"],
-        "responses": ["Current clinical trials for lung cancer can be found on clinicaltrials.gov and through major cancer centers.", "To participate in a clinical trial for lung cancer, discuss with your oncologist and explore trials matching your profile."]
-      },
-      {
-        "tag": "preventive_measures",
-        "patterns": ["How to prevent lung cancer", "Preventive measures for lung cancer", "Risk reduction for lung cancer"],
-        "responses": ["To prevent lung cancer, avoid tobacco smoke, reduce exposure to radon and asbestos, and maintain a healthy lifestyle.", "Preventive measures for lung cancer include smoking cessation, regular screenings for high-risk individuals, and occupational safety."]
-      },
-      {
-        "tag": "genetic_risk_factors",
-        "patterns": ["Genetic predisposition for lung cancer", "What are the genetic factors of lung cancer", "Hereditary risks for lung cancer"],
-        "responses": ["Genetic risk factors for lung cancer include mutations in genes like EGFR, ALK, and KRAS.", "Hereditary risks for lung cancer are higher in families with a history of the disease and genetic syndromes."]
-      }
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello, how can I assist with your breast cancer queries today?", "Hi there, ready to assist you with breast cancer information."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye, stay informed and take care!", "See you later, wishing all the best for your breast cancer care."]
+    },
+    {
+      "tag": "symptom_inquiry",
+      "patterns": ["What are the symptoms of breast cancer", "Common signs of breast cancer", "How do I know if someone has breast cancer"],
+      "responses": ["Common symptoms of breast cancer include a lump in the breast, change in breast shape, dimpling of the skin, and nipple discharge.", "Patients with breast cancer may experience breast pain, nipple retraction, and red or flaky skin around the breast."]
+    },
+    {
+      "tag": "diagnostic_tests",
+      "patterns": ["What tests are needed for breast cancer diagnosis", "How to diagnose breast cancer", "Diagnostic tests for breast cancer"],
+      "responses": ["Diagnostic tests for breast cancer include mammograms, ultrasound, MRI, and biopsies.", "To diagnose breast cancer, one may need imaging tests like mammography or ultrasound followed by a biopsy to confirm."]
+    },
+    {
+      "tag": "treatment_options",
+      "patterns": ["How to treat breast cancer", "What are the treatment options for breast cancer", "Treatment methods for breast cancer"],
+      "responses": ["Treatment options for breast cancer include surgery, radiation therapy, chemotherapy, hormone therapy, and targeted therapy.", "Breast cancer can be treated through lumpectomy, mastectomy, radiation, chemotherapy, or a combination of these methods."]
+    },
+    {
+      "tag": "medication_info",
+      "patterns": ["What drugs are used for breast cancer", "Medication for treating breast cancer", "Chemotherapy for breast cancer"],
+      "responses": ["Common drugs for breast cancer include hormone therapies like tamoxifen and aromatase inhibitors, and chemotherapies like doxorubicin.", "Targeted therapy agents used in breast cancer treatment include trastuzumab and pertuzumab."]
+    },
+    {
+      "tag": "side_effects",
+      "patterns": ["What are the side effects of breast cancer treatment", "Complications from breast cancer therapy", "Risks of breast cancer treatment"],
+      "responses": ["Side effects of breast cancer treatment can include fatigue, lymphedema, hair loss, and menopausal symptoms.", "Possible complications from breast cancer treatment are heart problems, bone loss, and neuropathy."]
+    },
+    {
+      "tag": "prognosis",
+      "patterns": ["What is the prognosis for breast cancer", "Life expectancy with breast cancer", "Survival rates for breast cancer"],
+      "responses": ["The prognosis for breast cancer varies based on the stage and type, with early-stage having better outcomes.", "Survival rates for breast cancer depend on the stage, with higher survival in localized and early-stage diseases."]
+    },
+    {
+      "tag": "referral",
+      "patterns": ["Who should I refer to for breast cancer treatment", "Need specialist for breast cancer", "Referral for breast cancer"],
+      "responses": ["For breast cancer treatment, refer to an oncologist specializing in breast cancers.", "For comprehensive breast cancer care, consider referral to a multidisciplinary team including breast surgeons, medical oncologists, and radiation oncologists."]
+    },
+    {
+      "tag": "follow_up",
+      "patterns": ["When to follow up for breast cancer", "Follow-up schedule for breast cancer", "Next appointment for breast cancer"],
+      "responses": ["Follow-up schedule for breast cancer typically involves regular exams and mammograms every 6 to 12 months.", "Next appointment should be based on the current treatment phase, typically every 6 months during active treatment."]
+    },
+    {
+      "tag": "patient_support",
+      "patterns": ["Support services for breast cancer", "Help for patients with breast cancer", "Where can patients find support for breast cancer"],
+      "responses": ["Support services for breast cancer include counseling, support groups, and patient navigation programs.", "Patients with breast cancer can find support through breast cancer organizations, online communities, and hospital support services."]
+    },
+    {
+      "tag": "clinical_trials",
+      "patterns": ["Are there any clinical trials for breast cancer", "How to participate in clinical trial for breast cancer", "Clinical studies for breast cancer"],
+      "responses": ["Current clinical trials for breast cancer can be found on clinicaltrials.gov and through major cancer centers.", "To participate in a clinical trial for breast cancer, discuss with your oncologist and explore trials matching your profile."]
+    },
+    {
+      "tag": "preventive_measures",
+      "patterns": ["How to prevent breast cancer", "Preventive measures for breast cancer", "Risk reduction for breast cancer"],
+      "responses": ["To prevent breast cancer, maintain a healthy weight, limit alcohol, avoid exposure to radiation, and consider preventive medication or surgery for high-risk individuals.", "Preventive measures for breast cancer include regular screening, lifestyle changes, and genetic counseling for those at high risk."]
+    },
+    {
+      "tag": "genetic_risk_factors",
+      "patterns": ["Genetic predisposition for breast cancer", "What are the genetic factors of breast cancer", "Hereditary risks for breast cancer"],
+      "responses": ["Genetic risk factors for breast cancer include mutations in genes like BRCA1, BRCA2, and PALB2.", "Hereditary risks for breast cancer are higher in families with a history of the disease and genetic syndromes."]
+    },
+    {
+      "tag": "links",
+      "patterns": ["Where can I find more information on breast cancer?", "Information on breast cancer", "Sources to learn more about breast cancer"],
+      "responses": ["Mayo Clinic: https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470", "CDC: https://www.cdc.gov/cancer/breast/basic_info/what-is-breast-cancer.htm", "American Cancer Society: https://www.cancer.org/cancer/types/breast-cancer.html", "Cleveland Clinic: https://my.clevelandclinic.org/health/diseases/3986-breast-cancer", "Medscape: https://emedicine.medscape.com/article/1947145-overview", "StatPearls: https://www.statpearls.com/point-of-care/18564"]
+    }
     ]
-  }
+}
