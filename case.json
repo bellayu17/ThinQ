@@ -1,0 +1,74 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello, how can I assist with your lung cancer queries today?", "Hi there, ready to assist you with lung cancer information."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye, stay informed and take care!", "See you later, wishing all the best for your lung cancer care."]
+      },
+      {
+        "tag": "symptom_inquiry",
+        "patterns": ["What are the symptoms of lung cancer", "Common signs of lung cancer", "How do I know if someone has lung cancer"],
+        "responses": ["Common symptoms of lung cancer include coughing, chest pain, weight loss, and shortness of breath.", "Patients with lung cancer may experience persistent cough, hemoptysis, and dyspnea."]
+      },
+      {
+        "tag": "diagnostic_tests",
+        "patterns": ["What tests are needed for lung cancer diagnosis", "How to diagnose lung cancer", "Diagnostic tests for lung cancer"],
+        "responses": ["Diagnostic tests for lung cancer include chest X-rays, CT scans, PET scans, and biopsies.", "To diagnose lung cancer, one may need imaging tests followed by a biopsy to confirm."]
+      },
+      {
+        "tag": "treatment_options",
+        "patterns": ["How to treat lung cancer", "What are the treatment options for lung cancer", "Treatment methods for lung cancer"],
+        "responses": ["Treatment options for lung cancer include surgery, radiation therapy, chemotherapy, targeted therapy, and immunotherapy.", "Lung cancer can be treated through surgical resection, radiation, chemotherapy, or a combination of these methods."]
+      },
+      {
+        "tag": "medication_info",
+        "patterns": ["What drugs are used for lung cancer", "Medication for treating lung cancer", "Chemotherapy for lung cancer"],
+        "responses": ["Common drugs for lung cancer include targeted therapy agents like erlotinib and immunotherapies like nivolumab.", "Chemotherapeutic agents used in lung cancer treatment include cisplatin and docetaxel."]
+      },
+      {
+        "tag": "side_effects",
+        "patterns": ["What are the side effects of lung cancer treatment", "Complications from lung cancer therapy", "Risks of lung cancer treatment"],
+        "responses": ["Side effects of lung cancer treatment can include nausea, fatigue, hair loss, and risk of infection.", "Possible complications from lung cancer treatment are pulmonary toxicity, cardiac issues, and neuropathy."]
+      },
+      {
+        "tag": "prognosis",
+        "patterns": ["What is the prognosis for lung cancer", "Life expectancy with lung cancer", "Survival rates for lung cancer"],
+        "responses": ["The prognosis for lung cancer varies based on the stage and type, with early-stage having better outcomes.", "Survival rates for lung cancer depend on the stage, with higher survival in localized and early-stage diseases."]
+      },
+      {
+        "tag": "referral",
+        "patterns": ["Who should I refer to for lung cancer treatment", "Need specialist for lung cancer", "Referral for lung cancer"],
+        "responses": ["For lung cancer treatment, refer to an oncologist specializing in thoracic cancers.", "For comprehensive lung cancer care, consider referral to a multidisciplinary team including thoracic surgeons, medical oncologists, and radiation oncologists."]
+      },
+      {
+        "tag": "follow_up",
+        "patterns": ["When to follow up for lung cancer", "Follow-up schedule for lung cancer", "Next appointment for lung cancer"],
+        "responses": ["Follow-up schedule for lung cancer typically involves regular scans and appointments every 3 to 6 months.", "Next appointment should be based on the current treatment phase, typically every 3 months during active treatment."]
+      },
+      {
+        "tag": "patient_support",
+        "patterns": ["Support services for lung cancer", "Help for patients with lung cancer", "Where can patients find support for lung cancer"],
+        "responses": ["Support services for lung cancer include counseling, support groups, and patient education programs.", "Patients with lung cancer can find support through local cancer societies, online communities, and hospital support services."]
+      },
+      {
+        "tag": "clinical_trials",
+        "patterns": ["Are there any clinical trials for lung cancer", "How to participate in clinical trial for lung cancer", "Clinical studies for lung cancer"],
+        "responses": ["Current clinical trials for lung cancer can be found on clinicaltrials.gov and through major cancer centers.", "To participate in a clinical trial for lung cancer, discuss with your oncologist and explore trials matching your profile."]
+      },
+      {
+        "tag": "preventive_measures",
+        "patterns": ["How to prevent lung cancer", "Preventive measures for lung cancer", "Risk reduction for lung cancer"],
+        "responses": ["To prevent lung cancer, avoid tobacco smoke, reduce exposure to radon and asbestos, and maintain a healthy lifestyle.", "Preventive measures for lung cancer include smoking cessation, regular screenings for high-risk individuals, and occupational safety."]
+      },
+      {
+        "tag": "genetic_risk_factors",
+        "patterns": ["Genetic predisposition for lung cancer", "What are the genetic factors of lung cancer", "Hereditary risks for lung cancer"],
+        "responses": ["Genetic risk factors for lung cancer include mutations in genes like EGFR, ALK, and KRAS.", "Hereditary risks for lung cancer are higher in families with a history of the disease and genetic syndromes."]
+      }
+    ]
+  }
